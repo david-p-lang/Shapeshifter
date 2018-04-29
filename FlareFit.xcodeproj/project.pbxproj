@@ -1,0 +1,909 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B9D6BC32096913200111263 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9D6BC22096913200111263 /* AppDelegate.swift */; };
+		1B9D6BC52096913200111263 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9D6BC42096913200111263 /* GameViewController.swift */; };
+		1B9D6BC82096913200111263 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B9D6BC62096913200111263 /* Main.storyboard */; };
+		1B9D6BCB2096913200111263 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B9D6BC92096913200111263 /* LaunchScreen.storyboard */; };
+		1B9D6BD02096913300111263 /* FlareFit.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 1B9D6BCF2096913300111263 /* FlareFit.app */; };
+		1B9D6BD62096913300111263 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B9D6BD42096913300111263 /* Interface.storyboard */; };
+		1B9D6BDD2096913300111263 /* FlareFit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1B9D6BDC2096913300111263 /* FlareFit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1B9D6BE22096913300111263 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9D6BE12096913300111263 /* InterfaceController.swift */; };
+		1B9D6BE42096913300111263 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9D6BE32096913300111263 /* ExtensionDelegate.swift */; };
+		1B9D6BED2096913300111263 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9D6BEC2096913300111263 /* AppDelegate.swift */; };
+		1B9D6BEF2096913300111263 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9D6BEE2096913300111263 /* GameViewController.swift */; };
+		1B9D6BF22096913300111263 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B9D6BF02096913300111263 /* Main.storyboard */; };
+		1B9D6BFB2096913300111263 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9D6BFA2096913300111263 /* AppDelegate.swift */; };
+		1B9D6BFD2096913300111263 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9D6BFC2096913300111263 /* GameViewController.swift */; };
+		1B9D6C002096913300111263 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B9D6BFE2096913300111263 /* Main.storyboard */; };
+		1B9D6C022096913300111263 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1B9D6BB72096913100111263 /* Actions.sks */; };
+		1B9D6C032096913300111263 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1B9D6BB72096913100111263 /* Actions.sks */; };
+		1B9D6C042096913300111263 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1B9D6BB72096913100111263 /* Actions.sks */; };
+		1B9D6C052096913300111263 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1B9D6BB82096913100111263 /* GameScene.sks */; };
+		1B9D6C062096913300111263 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1B9D6BB82096913100111263 /* GameScene.sks */; };
+		1B9D6C072096913300111263 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1B9D6BB82096913100111263 /* GameScene.sks */; };
+		1B9D6C082096913300111263 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1B9D6BB82096913100111263 /* GameScene.sks */; };
+		1B9D6C092096913300111263 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9D6BB92096913100111263 /* GameScene.swift */; };
+		1B9D6C0A2096913300111263 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9D6BB92096913100111263 /* GameScene.swift */; };
+		1B9D6C0B2096913300111263 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9D6BB92096913100111263 /* GameScene.swift */; };
+		1B9D6C0C2096913300111263 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9D6BB92096913100111263 /* GameScene.swift */; };
+		1B9D6C0D2096913300111263 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B9D6BBA2096913200111263 /* Assets.xcassets */; };
+		1B9D6C0E2096913300111263 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B9D6BBA2096913200111263 /* Assets.xcassets */; };
+		1B9D6C0F2096913300111263 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B9D6BBA2096913200111263 /* Assets.xcassets */; };
+		1B9D6C102096913300111263 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B9D6BBA2096913200111263 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B9D6BD12096913300111263 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B9D6BB22096913000111263 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B9D6BCE2096913300111263;
+			remoteInfo = "FlareFit watchOS App";
+		};
+		1B9D6BDE2096913300111263 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B9D6BB22096913000111263 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B9D6BDB2096913300111263;
+			remoteInfo = "FlareFit watchOS App Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1B9D6C162096913300111263 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1B9D6BDD2096913300111263 /* FlareFit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B9D6C1A2096913300111263 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				1B9D6BD02096913300111263 /* FlareFit.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1B9D6BB72096913100111263 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		1B9D6BB82096913100111263 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		1B9D6BB92096913100111263 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		1B9D6BBA2096913200111263 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1B9D6BBF2096913200111263 /* FlareFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlareFit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B9D6BC22096913200111263 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1B9D6BC42096913200111263 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		1B9D6BC72096913200111263 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1B9D6BCA2096913200111263 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1B9D6BCC2096913200111263 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B9D6BCF2096913300111263 /* FlareFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlareFit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B9D6BD52096913300111263 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		1B9D6BD72096913300111263 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B9D6BDC2096913300111263 /* FlareFit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "FlareFit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B9D6BE12096913300111263 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		1B9D6BE32096913300111263 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		1B9D6BE52096913300111263 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B9D6BEA2096913300111263 /* FlareFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlareFit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B9D6BEC2096913300111263 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1B9D6BEE2096913300111263 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		1B9D6BF12096913300111263 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1B9D6BF32096913300111263 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B9D6BF82096913300111263 /* FlareFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlareFit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B9D6BFA2096913300111263 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1B9D6BFC2096913300111263 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		1B9D6BFF2096913300111263 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1B9D6C012096913300111263 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B9D6BBC2096913200111263 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B9D6BD92096913300111263 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B9D6BE72096913300111263 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B9D6BF52096913300111263 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B9D6BB12096913000111263 = {
+			isa = PBXGroup;
+			children = (
+				1B9D6BB62096913100111263 /* FlareFit Shared */,
+				1B9D6BC12096913200111263 /* FlareFit iOS */,
+				1B9D6BD32096913300111263 /* FlareFit watchOS App */,
+				1B9D6BE02096913300111263 /* FlareFit watchOS App Extension */,
+				1B9D6BEB2096913300111263 /* FlareFit tvOS */,
+				1B9D6BF92096913300111263 /* FlareFit macOS */,
+				1B9D6BC02096913200111263 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1B9D6BB62096913100111263 /* FlareFit Shared */ = {
+			isa = PBXGroup;
+			children = (
+				1B9D6BB72096913100111263 /* Actions.sks */,
+				1B9D6BB82096913100111263 /* GameScene.sks */,
+				1B9D6BB92096913100111263 /* GameScene.swift */,
+				1B9D6BBA2096913200111263 /* Assets.xcassets */,
+			);
+			path = "FlareFit Shared";
+			sourceTree = "<group>";
+		};
+		1B9D6BC02096913200111263 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B9D6BBF2096913200111263 /* FlareFit.app */,
+				1B9D6BCF2096913300111263 /* FlareFit.app */,
+				1B9D6BDC2096913300111263 /* FlareFit Extension.appex */,
+				1B9D6BEA2096913300111263 /* FlareFit.app */,
+				1B9D6BF82096913300111263 /* FlareFit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B9D6BC12096913200111263 /* FlareFit iOS */ = {
+			isa = PBXGroup;
+			children = (
+				1B9D6BC22096913200111263 /* AppDelegate.swift */,
+				1B9D6BC42096913200111263 /* GameViewController.swift */,
+				1B9D6BC62096913200111263 /* Main.storyboard */,
+				1B9D6BC92096913200111263 /* LaunchScreen.storyboard */,
+				1B9D6BCC2096913200111263 /* Info.plist */,
+			);
+			path = "FlareFit iOS";
+			sourceTree = "<group>";
+		};
+		1B9D6BD32096913300111263 /* FlareFit watchOS App */ = {
+			isa = PBXGroup;
+			children = (
+				1B9D6BD42096913300111263 /* Interface.storyboard */,
+				1B9D6BD72096913300111263 /* Info.plist */,
+			);
+			path = "FlareFit watchOS App";
+			sourceTree = "<group>";
+		};
+		1B9D6BE02096913300111263 /* FlareFit watchOS App Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1B9D6BE12096913300111263 /* InterfaceController.swift */,
+				1B9D6BE32096913300111263 /* ExtensionDelegate.swift */,
+				1B9D6BE52096913300111263 /* Info.plist */,
+			);
+			path = "FlareFit watchOS App Extension";
+			sourceTree = "<group>";
+		};
+		1B9D6BEB2096913300111263 /* FlareFit tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				1B9D6BEC2096913300111263 /* AppDelegate.swift */,
+				1B9D6BEE2096913300111263 /* GameViewController.swift */,
+				1B9D6BF02096913300111263 /* Main.storyboard */,
+				1B9D6BF32096913300111263 /* Info.plist */,
+			);
+			path = "FlareFit tvOS";
+			sourceTree = "<group>";
+		};
+		1B9D6BF92096913300111263 /* FlareFit macOS */ = {
+			isa = PBXGroup;
+			children = (
+				1B9D6BFA2096913300111263 /* AppDelegate.swift */,
+				1B9D6BFC2096913300111263 /* GameViewController.swift */,
+				1B9D6BFE2096913300111263 /* Main.storyboard */,
+				1B9D6C012096913300111263 /* Info.plist */,
+			);
+			path = "FlareFit macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B9D6BBE2096913200111263 /* FlareFit iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B9D6C1B2096913300111263 /* Build configuration list for PBXNativeTarget "FlareFit iOS" */;
+			buildPhases = (
+				1B9D6BBB2096913200111263 /* Sources */,
+				1B9D6BBC2096913200111263 /* Frameworks */,
+				1B9D6BBD2096913200111263 /* Resources */,
+				1B9D6C1A2096913300111263 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B9D6BD22096913300111263 /* PBXTargetDependency */,
+			);
+			name = "FlareFit iOS";
+			productName = "FlareFit iOS";
+			productReference = 1B9D6BBF2096913200111263 /* FlareFit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1B9D6BCE2096913300111263 /* FlareFit watchOS App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B9D6C172096913300111263 /* Build configuration list for PBXNativeTarget "FlareFit watchOS App" */;
+			buildPhases = (
+				1B9D6BCD2096913300111263 /* Resources */,
+				1B9D6C162096913300111263 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B9D6BDF2096913300111263 /* PBXTargetDependency */,
+			);
+			name = "FlareFit watchOS App";
+			productName = "FlareFit watchOS App";
+			productReference = 1B9D6BCF2096913300111263 /* FlareFit.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		1B9D6BDB2096913300111263 /* FlareFit watchOS App Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B9D6C132096913300111263 /* Build configuration list for PBXNativeTarget "FlareFit watchOS App Extension" */;
+			buildPhases = (
+				1B9D6BD82096913300111263 /* Sources */,
+				1B9D6BD92096913300111263 /* Frameworks */,
+				1B9D6BDA2096913300111263 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FlareFit watchOS App Extension";
+			productName = "FlareFit watchOS App Extension";
+			productReference = 1B9D6BDC2096913300111263 /* FlareFit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		1B9D6BE92096913300111263 /* FlareFit tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B9D6C1E2096913300111263 /* Build configuration list for PBXNativeTarget "FlareFit tvOS" */;
+			buildPhases = (
+				1B9D6BE62096913300111263 /* Sources */,
+				1B9D6BE72096913300111263 /* Frameworks */,
+				1B9D6BE82096913300111263 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FlareFit tvOS";
+			productName = "FlareFit tvOS";
+			productReference = 1B9D6BEA2096913300111263 /* FlareFit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1B9D6BF72096913300111263 /* FlareFit macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B9D6C212096913300111263 /* Build configuration list for PBXNativeTarget "FlareFit macOS" */;
+			buildPhases = (
+				1B9D6BF42096913300111263 /* Sources */,
+				1B9D6BF52096913300111263 /* Frameworks */,
+				1B9D6BF62096913300111263 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FlareFit macOS";
+			productName = "FlareFit macOS";
+			productReference = 1B9D6BF82096913300111263 /* FlareFit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B9D6BB22096913000111263 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "David Lang";
+				TargetAttributes = {
+					1B9D6BBE2096913200111263 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					1B9D6BCE2096913300111263 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					1B9D6BDB2096913300111263 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					1B9D6BE92096913300111263 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					1B9D6BF72096913300111263 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 1B9D6BB52096913000111263 /* Build configuration list for PBXProject "FlareFit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1B9D6BB12096913000111263;
+			productRefGroup = 1B9D6BC02096913200111263 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B9D6BBE2096913200111263 /* FlareFit iOS */,
+				1B9D6BCE2096913300111263 /* FlareFit watchOS App */,
+				1B9D6BDB2096913300111263 /* FlareFit watchOS App Extension */,
+				1B9D6BE92096913300111263 /* FlareFit tvOS */,
+				1B9D6BF72096913300111263 /* FlareFit macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B9D6BBD2096913200111263 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B9D6C052096913300111263 /* GameScene.sks in Resources */,
+				1B9D6BC82096913200111263 /* Main.storyboard in Resources */,
+				1B9D6C022096913300111263 /* Actions.sks in Resources */,
+				1B9D6BCB2096913200111263 /* LaunchScreen.storyboard in Resources */,
+				1B9D6C0D2096913300111263 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B9D6BCD2096913300111263 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B9D6C0E2096913300111263 /* Assets.xcassets in Resources */,
+				1B9D6BD62096913300111263 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B9D6BDA2096913300111263 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B9D6C062096913300111263 /* GameScene.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B9D6BE82096913300111263 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B9D6BF22096913300111263 /* Main.storyboard in Resources */,
+				1B9D6C072096913300111263 /* GameScene.sks in Resources */,
+				1B9D6C0F2096913300111263 /* Assets.xcassets in Resources */,
+				1B9D6C032096913300111263 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B9D6BF62096913300111263 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B9D6C002096913300111263 /* Main.storyboard in Resources */,
+				1B9D6C082096913300111263 /* GameScene.sks in Resources */,
+				1B9D6C102096913300111263 /* Assets.xcassets in Resources */,
+				1B9D6C042096913300111263 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B9D6BBB2096913200111263 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B9D6C092096913300111263 /* GameScene.swift in Sources */,
+				1B9D6BC52096913200111263 /* GameViewController.swift in Sources */,
+				1B9D6BC32096913200111263 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B9D6BD82096913300111263 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B9D6C0A2096913300111263 /* GameScene.swift in Sources */,
+				1B9D6BE42096913300111263 /* ExtensionDelegate.swift in Sources */,
+				1B9D6BE22096913300111263 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B9D6BE62096913300111263 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B9D6C0B2096913300111263 /* GameScene.swift in Sources */,
+				1B9D6BEF2096913300111263 /* GameViewController.swift in Sources */,
+				1B9D6BED2096913300111263 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B9D6BF42096913300111263 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B9D6C0C2096913300111263 /* GameScene.swift in Sources */,
+				1B9D6BFD2096913300111263 /* GameViewController.swift in Sources */,
+				1B9D6BFB2096913300111263 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B9D6BD22096913300111263 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B9D6BCE2096913300111263 /* FlareFit watchOS App */;
+			targetProxy = 1B9D6BD12096913300111263 /* PBXContainerItemProxy */;
+		};
+		1B9D6BDF2096913300111263 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B9D6BDB2096913300111263 /* FlareFit watchOS App Extension */;
+			targetProxy = 1B9D6BDE2096913300111263 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1B9D6BC62096913200111263 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B9D6BC72096913200111263 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1B9D6BC92096913200111263 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B9D6BCA2096913200111263 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		1B9D6BD42096913300111263 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B9D6BD52096913300111263 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+		1B9D6BF02096913300111263 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B9D6BF12096913300111263 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1B9D6BFE2096913300111263 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B9D6BFF2096913300111263 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1B9D6C112096913300111263 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1B9D6C122096913300111263 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		1B9D6C142096913300111263 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7AR6LWAY36;
+				INFOPLIST_FILE = "FlareFit watchOS App Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.agilityfittech.FlareFit.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "FlareFit Extension";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Debug;
+		};
+		1B9D6C152096913300111263 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7AR6LWAY36;
+				INFOPLIST_FILE = "FlareFit watchOS App Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.agilityfittech.FlareFit.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "FlareFit Extension";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Release;
+		};
+		1B9D6C182096913300111263 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7AR6LWAY36;
+				IBSC_MODULE = FlareFit_Extension;
+				INFOPLIST_FILE = "FlareFit watchOS App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.agilityfittech.FlareFit.watchkitapp;
+				PRODUCT_NAME = FlareFit;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Debug;
+		};
+		1B9D6C192096913300111263 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7AR6LWAY36;
+				IBSC_MODULE = FlareFit_Extension;
+				INFOPLIST_FILE = "FlareFit watchOS App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.agilityfittech.FlareFit.watchkitapp;
+				PRODUCT_NAME = FlareFit;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Release;
+		};
+		1B9D6C1C2096913300111263 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7AR6LWAY36;
+				INFOPLIST_FILE = "FlareFit iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.agilityfittech.FlareFit;
+				PRODUCT_NAME = FlareFit;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1B9D6C1D2096913300111263 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7AR6LWAY36;
+				INFOPLIST_FILE = "FlareFit iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.agilityfittech.FlareFit;
+				PRODUCT_NAME = FlareFit;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B9D6C1F2096913300111263 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "tvOS App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "tvOS LaunchImage";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7AR6LWAY36;
+				INFOPLIST_FILE = "FlareFit tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.agilityfittech.FlareFit;
+				PRODUCT_NAME = FlareFit;
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.3;
+			};
+			name = Debug;
+		};
+		1B9D6C202096913300111263 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "tvOS App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "tvOS LaunchImage";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7AR6LWAY36;
+				INFOPLIST_FILE = "FlareFit tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.agilityfittech.FlareFit;
+				PRODUCT_NAME = FlareFit;
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.3;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B9D6C222096913300111263 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7AR6LWAY36;
+				INFOPLIST_FILE = "FlareFit macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.agilityfittech.FlareFit;
+				PRODUCT_NAME = FlareFit;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		1B9D6C232096913300111263 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7AR6LWAY36;
+				INFOPLIST_FILE = "FlareFit macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.agilityfittech.FlareFit;
+				PRODUCT_NAME = FlareFit;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B9D6BB52096913000111263 /* Build configuration list for PBXProject "FlareFit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B9D6C112096913300111263 /* Debug */,
+				1B9D6C122096913300111263 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B9D6C132096913300111263 /* Build configuration list for PBXNativeTarget "FlareFit watchOS App Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B9D6C142096913300111263 /* Debug */,
+				1B9D6C152096913300111263 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B9D6C172096913300111263 /* Build configuration list for PBXNativeTarget "FlareFit watchOS App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B9D6C182096913300111263 /* Debug */,
+				1B9D6C192096913300111263 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B9D6C1B2096913300111263 /* Build configuration list for PBXNativeTarget "FlareFit iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B9D6C1C2096913300111263 /* Debug */,
+				1B9D6C1D2096913300111263 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B9D6C1E2096913300111263 /* Build configuration list for PBXNativeTarget "FlareFit tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B9D6C1F2096913300111263 /* Debug */,
+				1B9D6C202096913300111263 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B9D6C212096913300111263 /* Build configuration list for PBXNativeTarget "FlareFit macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B9D6C222096913300111263 /* Debug */,
+				1B9D6C232096913300111263 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B9D6BB22096913000111263 /* Project object */;
+}
