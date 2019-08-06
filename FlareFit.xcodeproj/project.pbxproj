@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B0703BB2117F33500F6E93D /* PlayScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1B0703BA2117F33500F6E93D /* PlayScene.sks */; };
+		1B0A39962118E3CF006444DB /* Player.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1B0A39952118E3CF006444DB /* Player.sks */; };
+		1B1E0320212A35940007B194 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1E031F212A35940007B194 /* Player.swift */; };
+		1B1E0321212A35940007B194 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1E031F212A35940007B194 /* Player.swift */; };
+		1B1E0322212A35940007B194 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1E031F212A35940007B194 /* Player.swift */; };
 		1B9D6BC32096913200111263 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9D6BC22096913200111263 /* AppDelegate.swift */; };
 		1B9D6BC52096913200111263 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9D6BC42096913200111263 /* GameViewController.swift */; };
 		1B9D6BC82096913200111263 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B9D6BC62096913200111263 /* Main.storyboard */; };
@@ -37,6 +42,26 @@
 		1B9D6C0E2096913300111263 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B9D6BBA2096913200111263 /* Assets.xcassets */; };
 		1B9D6C0F2096913300111263 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B9D6BBA2096913200111263 /* Assets.xcassets */; };
 		1B9D6C102096913300111263 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B9D6BBA2096913200111263 /* Assets.xcassets */; };
+		1B9D6C2720973EA500111263 /* ConfirmScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9D6C2620973EA500111263 /* ConfirmScene.swift */; };
+		1B9D6C29209803DD00111263 /* HeartRateLEMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9D6C28209803DC00111263 /* HeartRateLEMonitor.swift */; };
+		1B9D6C2A209803DD00111263 /* HeartRateLEMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9D6C28209803DC00111263 /* HeartRateLEMonitor.swift */; };
+		1B9D6C2B209803DD00111263 /* HeartRateLEMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9D6C28209803DC00111263 /* HeartRateLEMonitor.swift */; };
+		1BAB80B721174C6F0005E884 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BAB80B521174C6F0005E884 /* Button.swift */; };
+		1BAB80B821174C6F0005E884 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BAB80B521174C6F0005E884 /* Button.swift */; };
+		1BAB80B921174C6F0005E884 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BAB80B521174C6F0005E884 /* Button.swift */; };
+		1BAB80BA21174C6F0005E884 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BAB80B521174C6F0005E884 /* Button.swift */; };
+		1BAB80BB21174C6F0005E884 /* PlayScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BAB80B621174C6F0005E884 /* PlayScene.swift */; };
+		1BAB80BC21174C6F0005E884 /* PlayScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BAB80B621174C6F0005E884 /* PlayScene.swift */; };
+		1BAB80BD21174C6F0005E884 /* PlayScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BAB80B621174C6F0005E884 /* PlayScene.swift */; };
+		1BAB80BE21174C6F0005E884 /* PlayScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BAB80B621174C6F0005E884 /* PlayScene.swift */; };
+		1BCA291D21667B860035303B /* beep.mid in Resources */ = {isa = PBXBuildFile; fileRef = 1BCA291C21667B850035303B /* beep.mid */; };
+		1BCA291E21667B860035303B /* beep.mid in Resources */ = {isa = PBXBuildFile; fileRef = 1BCA291C21667B850035303B /* beep.mid */; };
+		1BCA291F2166916F0035303B /* beep.mid in Resources */ = {isa = PBXBuildFile; fileRef = 1BCA291C21667B850035303B /* beep.mid */; };
+		1BCA2920216691720035303B /* beep.mid in Resources */ = {isa = PBXBuildFile; fileRef = 1BCA291C21667B850035303B /* beep.mid */; };
+		1BCA2922216692C70035303B /* beep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1BCA2921216692C60035303B /* beep.mp3 */; };
+		1BCA2923216692C70035303B /* beep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1BCA2921216692C60035303B /* beep.mp3 */; };
+		1BCA2924216692C70035303B /* beep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1BCA2921216692C60035303B /* beep.mp3 */; };
+		1BCA2925216692C70035303B /* beep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1BCA2921216692C60035303B /* beep.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +107,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1B0703BA2117F33500F6E93D /* PlayScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = PlayScene.sks; sourceTree = "<group>"; };
+		1B0A39952118E3CF006444DB /* Player.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Player.sks; sourceTree = "<group>"; };
+		1B1E031F212A35940007B194 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		1B9D6BB72096913100111263 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		1B9D6BB82096913100111263 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		1B9D6BB92096913100111263 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
@@ -109,6 +137,12 @@
 		1B9D6BFC2096913300111263 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		1B9D6BFF2096913300111263 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1B9D6C012096913300111263 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B9D6C2620973EA500111263 /* ConfirmScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmScene.swift; sourceTree = "<group>"; };
+		1B9D6C28209803DC00111263 /* HeartRateLEMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRateLEMonitor.swift; sourceTree = "<group>"; };
+		1BAB80B521174C6F0005E884 /* Button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		1BAB80B621174C6F0005E884 /* PlayScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayScene.swift; sourceTree = "<group>"; };
+		1BCA291C21667B850035303B /* beep.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = beep.mid; sourceTree = "<group>"; };
+		1BCA2921216692C60035303B /* beep.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = beep.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +177,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B1E031C212A2E820007B194 /* GameObjects */ = {
+			isa = PBXGroup;
+			children = (
+				1B1E031F212A35940007B194 /* Player.swift */,
+			);
+			path = GameObjects;
+			sourceTree = "<group>";
+		};
 		1B9D6BB12096913000111263 = {
 			isa = PBXGroup;
 			children = (
@@ -159,10 +201,19 @@
 		1B9D6BB62096913100111263 /* FlareFit Shared */ = {
 			isa = PBXGroup;
 			children = (
+				1BCA291C21667B850035303B /* beep.mid */,
+				1BCA2921216692C60035303B /* beep.mp3 */,
+				1B1E031C212A2E820007B194 /* GameObjects */,
+				1BAB80B521174C6F0005E884 /* Button.swift */,
+				1BAB80B621174C6F0005E884 /* PlayScene.swift */,
 				1B9D6BB72096913100111263 /* Actions.sks */,
 				1B9D6BB82096913100111263 /* GameScene.sks */,
 				1B9D6BB92096913100111263 /* GameScene.swift */,
 				1B9D6BBA2096913200111263 /* Assets.xcassets */,
+				1B9D6C2620973EA500111263 /* ConfirmScene.swift */,
+				1B9D6C28209803DC00111263 /* HeartRateLEMonitor.swift */,
+				1B0703BA2117F33500F6E93D /* PlayScene.sks */,
+				1B0A39952118E3CF006444DB /* Player.sks */,
 			);
 			path = "FlareFit Shared";
 			sourceTree = "<group>";
@@ -337,12 +388,14 @@
 					};
 					1B9D6BCE2096913300111263 = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0940;
 					};
 					1B9D6BDB2096913300111263 = {
 						CreatedOnToolsVersion = 9.3;
 					};
 					1B9D6BE92096913300111263 = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 1030;
 					};
 					1B9D6BF72096913300111263 = {
 						CreatedOnToolsVersion = 9.3;
@@ -376,6 +429,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B0703BB2117F33500F6E93D /* PlayScene.sks in Resources */,
+				1B0A39962118E3CF006444DB /* Player.sks in Resources */,
+				1BCA2922216692C70035303B /* beep.mp3 in Resources */,
+				1BCA291D21667B860035303B /* beep.mid in Resources */,
 				1B9D6C052096913300111263 /* GameScene.sks in Resources */,
 				1B9D6BC82096913200111263 /* Main.storyboard in Resources */,
 				1B9D6C022096913300111263 /* Actions.sks in Resources */,
@@ -388,7 +445,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BCA2920216691720035303B /* beep.mid in Resources */,
 				1B9D6C0E2096913300111263 /* Assets.xcassets in Resources */,
+				1BCA2923216692C70035303B /* beep.mp3 in Resources */,
 				1B9D6BD62096913300111263 /* Interface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -407,6 +466,8 @@
 			files = (
 				1B9D6BF22096913300111263 /* Main.storyboard in Resources */,
 				1B9D6C072096913300111263 /* GameScene.sks in Resources */,
+				1BCA2924216692C70035303B /* beep.mp3 in Resources */,
+				1BCA291E21667B860035303B /* beep.mid in Resources */,
 				1B9D6C0F2096913300111263 /* Assets.xcassets in Resources */,
 				1B9D6C032096913300111263 /* Actions.sks in Resources */,
 			);
@@ -417,6 +478,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B9D6C002096913300111263 /* Main.storyboard in Resources */,
+				1BCA291F2166916F0035303B /* beep.mid in Resources */,
+				1BCA2925216692C70035303B /* beep.mp3 in Resources */,
 				1B9D6C082096913300111263 /* GameScene.sks in Resources */,
 				1B9D6C102096913300111263 /* Assets.xcassets in Resources */,
 				1B9D6C042096913300111263 /* Actions.sks in Resources */,
@@ -431,8 +494,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B9D6C092096913300111263 /* GameScene.swift in Sources */,
+				1B9D6C29209803DD00111263 /* HeartRateLEMonitor.swift in Sources */,
+				1B9D6C2720973EA500111263 /* ConfirmScene.swift in Sources */,
 				1B9D6BC52096913200111263 /* GameViewController.swift in Sources */,
+				1BAB80BB21174C6F0005E884 /* PlayScene.swift in Sources */,
 				1B9D6BC32096913200111263 /* AppDelegate.swift in Sources */,
+				1BAB80B721174C6F0005E884 /* Button.swift in Sources */,
+				1B1E0320212A35940007B194 /* Player.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,6 +511,8 @@
 				1B9D6C0A2096913300111263 /* GameScene.swift in Sources */,
 				1B9D6BE42096913300111263 /* ExtensionDelegate.swift in Sources */,
 				1B9D6BE22096913300111263 /* InterfaceController.swift in Sources */,
+				1BAB80BC21174C6F0005E884 /* PlayScene.swift in Sources */,
+				1BAB80B821174C6F0005E884 /* Button.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,7 +520,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BAB80B921174C6F0005E884 /* Button.swift in Sources */,
+				1BAB80BD21174C6F0005E884 /* PlayScene.swift in Sources */,
+				1B9D6C2A209803DD00111263 /* HeartRateLEMonitor.swift in Sources */,
 				1B9D6C0B2096913300111263 /* GameScene.swift in Sources */,
+				1B1E0321212A35940007B194 /* Player.swift in Sources */,
 				1B9D6BEF2096913300111263 /* GameViewController.swift in Sources */,
 				1B9D6BED2096913300111263 /* AppDelegate.swift in Sources */,
 			);
@@ -460,7 +534,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BAB80BA21174C6F0005E884 /* Button.swift in Sources */,
+				1BAB80BE21174C6F0005E884 /* PlayScene.swift in Sources */,
+				1B9D6C2B209803DD00111263 /* HeartRateLEMonitor.swift in Sources */,
 				1B9D6C0C2096913300111263 /* GameScene.swift in Sources */,
+				1B1E0322212A35940007B194 /* Player.swift in Sources */,
 				1B9D6BFD2096913300111263 /* GameViewController.swift in Sources */,
 				1B9D6BFB2096913300111263 /* AppDelegate.swift in Sources */,
 			);
@@ -682,15 +760,22 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7AR6LWAY36;
 				IBSC_MODULE = FlareFit_Extension;
 				INFOPLIST_FILE = "FlareFit watchOS App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.agilityfittech.FlareFit.watchkitapp;
 				PRODUCT_NAME = FlareFit;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 4.3;
@@ -702,11 +787,17 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7AR6LWAY36;
 				IBSC_MODULE = FlareFit_Extension;
 				INFOPLIST_FILE = "FlareFit watchOS App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.agilityfittech.FlareFit.watchkitapp;
 				PRODUCT_NAME = FlareFit;
 				SDKROOT = watchos;
@@ -731,7 +822,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.agilityfittech.FlareFit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.davidlang.FlareFit;
 				PRODUCT_NAME = FlareFit;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 4.0;
@@ -752,7 +843,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.agilityfittech.FlareFit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.davidlang.FlareFit;
 				PRODUCT_NAME = FlareFit;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 4.0;
@@ -776,7 +867,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.agilityfittech.FlareFit;
 				PRODUCT_NAME = FlareFit;
 				SDKROOT = appletvos;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 11.3;
 			};
@@ -797,7 +888,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.agilityfittech.FlareFit;
 				PRODUCT_NAME = FlareFit;
 				SDKROOT = appletvos;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 11.3;
 				VALIDATE_PRODUCT = YES;
