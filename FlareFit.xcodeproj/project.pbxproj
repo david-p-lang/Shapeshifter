@@ -17,16 +17,10 @@
 		1B9D6BC82096913200111263 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B9D6BC62096913200111263 /* Main.storyboard */; };
 		1B9D6BCB2096913200111263 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B9D6BC92096913200111263 /* LaunchScreen.storyboard */; };
 		1B9D6BD02096913300111263 /* FlareFit.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 1B9D6BCF2096913300111263 /* FlareFit.app */; };
-		1B9D6BD62096913300111263 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B9D6BD42096913300111263 /* Interface.storyboard */; };
 		1B9D6BDD2096913300111263 /* FlareFit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1B9D6BDC2096913300111263 /* FlareFit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		1B9D6BE22096913300111263 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9D6BE12096913300111263 /* InterfaceController.swift */; };
-		1B9D6BE42096913300111263 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9D6BE32096913300111263 /* ExtensionDelegate.swift */; };
 		1B9D6BED2096913300111263 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9D6BEC2096913300111263 /* AppDelegate.swift */; };
 		1B9D6BEF2096913300111263 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9D6BEE2096913300111263 /* GameViewController.swift */; };
 		1B9D6BF22096913300111263 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B9D6BF02096913300111263 /* Main.storyboard */; };
-		1B9D6BFB2096913300111263 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9D6BFA2096913300111263 /* AppDelegate.swift */; };
-		1B9D6BFD2096913300111263 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9D6BFC2096913300111263 /* GameViewController.swift */; };
-		1B9D6C002096913300111263 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B9D6BFE2096913300111263 /* Main.storyboard */; };
 		1B9D6C022096913300111263 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1B9D6BB72096913100111263 /* Actions.sks */; };
 		1B9D6C032096913300111263 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1B9D6BB72096913100111263 /* Actions.sks */; };
 		1B9D6C042096913300111263 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1B9D6BB72096913100111263 /* Actions.sks */; };
@@ -122,22 +116,13 @@
 		1B9D6BCA2096913200111263 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1B9D6BCC2096913200111263 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B9D6BCF2096913300111263 /* FlareFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlareFit.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1B9D6BD52096913300111263 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
-		1B9D6BD72096913300111263 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B9D6BDC2096913300111263 /* FlareFit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "FlareFit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1B9D6BE12096913300111263 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
-		1B9D6BE32096913300111263 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
-		1B9D6BE52096913300111263 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B9D6BEA2096913300111263 /* FlareFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlareFit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B9D6BEC2096913300111263 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1B9D6BEE2096913300111263 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		1B9D6BF12096913300111263 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1B9D6BF32096913300111263 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B9D6BF82096913300111263 /* FlareFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlareFit.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1B9D6BFA2096913300111263 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1B9D6BFC2096913300111263 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
-		1B9D6BFF2096913300111263 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1B9D6C012096913300111263 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B9D6C2620973EA500111263 /* ConfirmScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmScene.swift; sourceTree = "<group>"; };
 		1B9D6C28209803DC00111263 /* HeartRateLEMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRateLEMonitor.swift; sourceTree = "<group>"; };
 		1BAB80B521174C6F0005E884 /* Button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
@@ -194,10 +179,7 @@
 			children = (
 				1B9D6BB62096913100111263 /* FlareFit Shared */,
 				1B9D6BC12096913200111263 /* FlareFit iOS */,
-				1B9D6BD32096913300111263 /* FlareFit watchOS App */,
-				1B9D6BE02096913300111263 /* FlareFit watchOS App Extension */,
 				1B9D6BEB2096913300111263 /* FlareFit tvOS */,
-				1B9D6BF92096913300111263 /* FlareFit macOS */,
 				1B9D6BC02096913200111263 /* Products */,
 				6323FF092308719500233782 /* Frameworks */,
 			);
@@ -248,25 +230,6 @@
 			path = "FlareFit iOS";
 			sourceTree = "<group>";
 		};
-		1B9D6BD32096913300111263 /* FlareFit watchOS App */ = {
-			isa = PBXGroup;
-			children = (
-				1B9D6BD42096913300111263 /* Interface.storyboard */,
-				1B9D6BD72096913300111263 /* Info.plist */,
-			);
-			path = "FlareFit watchOS App";
-			sourceTree = "<group>";
-		};
-		1B9D6BE02096913300111263 /* FlareFit watchOS App Extension */ = {
-			isa = PBXGroup;
-			children = (
-				1B9D6BE12096913300111263 /* InterfaceController.swift */,
-				1B9D6BE32096913300111263 /* ExtensionDelegate.swift */,
-				1B9D6BE52096913300111263 /* Info.plist */,
-			);
-			path = "FlareFit watchOS App Extension";
-			sourceTree = "<group>";
-		};
 		1B9D6BEB2096913300111263 /* FlareFit tvOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -276,17 +239,6 @@
 				1B9D6BF32096913300111263 /* Info.plist */,
 			);
 			path = "FlareFit tvOS";
-			sourceTree = "<group>";
-		};
-		1B9D6BF92096913300111263 /* FlareFit macOS */ = {
-			isa = PBXGroup;
-			children = (
-				1B9D6BFA2096913300111263 /* AppDelegate.swift */,
-				1B9D6BFC2096913300111263 /* GameViewController.swift */,
-				1B9D6BFE2096913300111263 /* Main.storyboard */,
-				1B9D6C012096913300111263 /* Info.plist */,
-			);
-			path = "FlareFit macOS";
 			sourceTree = "<group>";
 		};
 		6323FF092308719500233782 /* Frameworks */ = {
@@ -467,7 +419,6 @@
 				1BCA2920216691720035303B /* beep.mid in Resources */,
 				1B9D6C0E2096913300111263 /* Assets.xcassets in Resources */,
 				1BCA2923216692C70035303B /* beep.mp3 in Resources */,
-				1B9D6BD62096913300111263 /* Interface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,7 +447,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B9D6C002096913300111263 /* Main.storyboard in Resources */,
 				1BCA291F2166916F0035303B /* beep.mid in Resources */,
 				1BCA2925216692C70035303B /* beep.mp3 in Resources */,
 				1B9D6C082096913300111263 /* GameScene.sks in Resources */,
@@ -528,8 +478,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B9D6C0A2096913300111263 /* GameScene.swift in Sources */,
-				1B9D6BE42096913300111263 /* ExtensionDelegate.swift in Sources */,
-				1B9D6BE22096913300111263 /* InterfaceController.swift in Sources */,
 				1BAB80BC21174C6F0005E884 /* PlayScene.swift in Sources */,
 				1BAB80B821174C6F0005E884 /* Button.swift in Sources */,
 			);
@@ -558,8 +506,6 @@
 				1B9D6C2B209803DD00111263 /* HeartRateLEMonitor.swift in Sources */,
 				1B9D6C0C2096913300111263 /* GameScene.swift in Sources */,
 				1B1E0322212A35940007B194 /* Player.swift in Sources */,
-				1B9D6BFD2096913300111263 /* GameViewController.swift in Sources */,
-				1B9D6BFB2096913300111263 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -595,26 +541,10 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		1B9D6BD42096913300111263 /* Interface.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1B9D6BD52096913300111263 /* Base */,
-			);
-			name = Interface.storyboard;
-			sourceTree = "<group>";
-		};
 		1B9D6BF02096913300111263 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				1B9D6BF12096913300111263 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		1B9D6BFE2096913300111263 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1B9D6BFF2096913300111263 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
