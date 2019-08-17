@@ -31,7 +31,6 @@ class Button: SKSpriteNode {
         label.fontName = "Helvetica Neue UltraLight"
         label.fontSize = 50
         label.verticalAlignmentMode = .center
-        self.focusBehavior = .focusable
         self.setScale(0.9)
         self.alpha = 0.8
         self.addChild(label)
@@ -54,6 +53,9 @@ class Button: SKSpriteNode {
     }
     
     override func didUpdateFocus(in context: UIFocusUpdateContext, with coordinator: UIFocusAnimationCoordinator) {
+        
+        self.focusBehavior = .focusable
+
         
         if context.previouslyFocusedItem === self {
             print("previous focus on \(self.labelText)")
